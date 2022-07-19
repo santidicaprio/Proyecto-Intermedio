@@ -38,7 +38,6 @@ def prueba(request):
 
 def estadistica(request):
     if request.method == "POST":
-        print("HOLA")
         print(request.POST)
         form = EstadisticasForm(request.POST)
         
